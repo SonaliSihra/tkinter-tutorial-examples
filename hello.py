@@ -6,7 +6,8 @@ logo = PhotoImage(file="source.gif")
 
 w1 = Label(root, image=logo).pack(side="right")
 
-explanation = """I'm writing this to create a bigger screen for the text\n and to see how the tkinter is actually wrapping up the data with a function pack()"""
+explanation = """I'm writing this to create a bigger screen for the text\nand to see how the tkinter is actually 
+wrapping up the data with a function pack() """
 
 w2 = Label(root,
            justify=LEFT,
